@@ -1,0 +1,119 @@
+*{
+	margin:0;
+	padding:0;
+}
+.raleway-<uniquifier> {
+  font-family: "Raleway", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: <weight>;
+  font-style: normal;
+}
+body{
+	font-family:sans-serif;
+}
+#nav-bar{
+	position:sticky;
+	top:0;
+	z-index:10;
+}
+.navbar{
+	background-color: #191c1f;
+	padding: 0px;
+	width:100%;
+	height:50px;
+	display:block;
+}
+.navbar-brand{
+	color:#ffffff;
+	text-align:left;
+	font-size: var(--bs-nav-link-font-size);
+    font-weight: var(--bs-nav-link-font-weight);
+	width: 35vh;
+	padding: 12px 12px;
+	margin: 0px;
+}
+.container-fluid{
+	padding-left: none;
+	
+}
+.navbar-brand:hover{
+	color:#ffffff;
+}
+.btn{
+	width: 7%;
+	margin-left: 10px;
+	border: none;
+	color: #BABBBC;
+	float: right;
+	border-radius: 0px;
+	margin: 0px;
+	padding: 13px 0px;
+	font-size: var(--bs-nav-link-font-size);
+    font-weight: var(--bs-nav-link-font-weight);
+}
+.btn:hover{
+	background-color: #212529;
+	color: #BABBBC;
+}
+button{
+	height:0px;
+	width: 0px;
+}
+.inpout-group{
+	height: 50px;
+	background-color:rgba(255, 255, 255, .1);
+}
+input.form-control{
+	background-color: #383B3F;
+	border: 0px;
+}
+
+.body-cont{
+	width:100%;
+	height:90vh;
+	background-color:#ffffff;
+}
+.body-cont .cont1{
+	position: absolute;
+    left: 40%;
+	top: 10%;
+}
+.body-cont .cont1 form{
+	height: 350px;
+	width: 350px;
+	margin:0 auto;
+	display: block;
+	border:4px solid #DFE0E1;
+	background-color: #F8F9FA;
+	font-family: "Raleway", sans-serif;
+	font-weight: <weight>;
+	font-style: normal;
+}
+.body-cont .cont1 form h1{
+	text-align: center;
+}
+.body-cont .attributes{
+	height: 40px;
+	width: 300px;
+	border-radius: 5px;
+	padding: 5px;
+	margin:0 0 3px 17px;
+}
+.body-cont .submit{
+	height: 40px;
+	width: 50px;
+	margin:0 auto;
+	border-radius: 10px;
+	display: block;
+	font-family: "Raleway", sans-serif;
+	font-weight: <weight>;
+	font-style: normal;
+	color: #ffffff;
+	background-color: #FF8A1D;
+}
+.body-cont .cont1 form p{
+	margin:0 0 3px 17px;
+}
+.body-cont .cont1 form p a{
+	text-decoration: none;
+}
